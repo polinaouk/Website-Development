@@ -1,0 +1,351 @@
+     a {
+         text-decoration: none !important;
+     }
+     
+     .row1 {
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         -webkit-box-orient: vertical;
+         -webkit-box-direction: normal;
+         -ms-flex-direction: column;
+         flex-direction: column;
+     }
+     
+     .menu_flex_row {
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         -webkit-box-orient: horizontal;
+         -webkit-box-direction: normal;
+         -ms-flex-direction: row;
+         flex-direction: row;
+         height: auto;
+     }
+     
+     .menu_img {
+         width: 50%;
+         height: auto;
+         -o-object-fit: cover;
+         object-fit: cover;
+         overflow: hidden;
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-color: gray;
+         margin: 20px 20px 20px 20px;
+     }
+     
+     .canape_1 {
+         background-image: url("../img/menu1.jpg");
+     }
+     
+     .canape_2 {
+         background-image: url("../img/menu2.jpg");
+     }
+     
+     .text_canapes {
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         -webkit-box-orient: vertical;
+         -webkit-box-direction: normal;
+         -ms-flex-direction: column;
+         flex-direction: column;
+         /* justify-content: space-between; */
+         width: 50%;
+         height: auto;
+         margin: 20px 20px 20px 20px;
+         /* background-color: #F7F7F7; */
+         /* border: 1px solid #E0E0E0 !important; */
+         padding: 20px 20px 20px 20px;
+     }
+     
+     .text_canapes p {
+         text-align: left;
+         padding: 0px 0px !important;
+         margin: 0px 0px !important;
+         padding-bottom: 20px !important;
+         font-size: 15px;
+         text-transform: lowercase;
+     }
+     
+     .menu_img img {
+         height: 100%;
+         /* max-height: 700px; */
+         width: auto;
+         overflow: hidden;
+     }
+     
+     .text_canapes h4 {
+         text-align: left;
+         font-size: 17px !important;
+         padding: 0px 0px !important;
+         margin: 0px 0px !important;
+         text-transform: uppercase;
+         padding-bottom: 3px !important;
+     }
+     
+     .text_right_side h4,
+     .text_right_side p {
+         text-align: right !important;
+     }
+     
+     .text_left_side h4,
+     .text_left_side p {
+         text-align: left !important;
+     }
+     
+     .text_brunch1 {
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         -webkit-box-orient: vertical;
+         -webkit-box-direction: normal;
+         -ms-flex-direction: column;
+         flex-direction: column;
+         /* justify-content: space-between; */
+         width: 50% !important;
+         height: auto;
+         margin: 20px 20px 20px 20px;
+         /* background-color: #F7F7F7; */
+         /* border: 1px solid #E0E0E0 !important; */
+         padding: 20px 20px 20px 20px;
+     }
+     
+     .text_brunch1 p {
+         text-align: left;
+         padding: 0px 0px !important;
+         margin: 0px 0px !important;
+         padding-bottom: 20px !important;
+         font-size: 15px;
+         text-transform: lowercase;
+     }
+     
+     .text_brunch1 h4 {
+         text-align: left;
+         font-size: 17px !important;
+         padding: 0px 0px !important;
+         margin: 0px 0px !important;
+         text-transform: uppercase;
+         padding-bottom: 3px !important;
+     }
+     
+     .brunch_1 {
+         background-image: url("../img/brunch.jpg");
+     }
+     
+     .dinner_1 {
+         background-image: url("../img/dinner1.jpg");
+     }
+     
+     .dinner_2 {
+         background-image: url("../img/dinner2.jpg");
+     }
+     
+     .text_dinner {
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         -webkit-box-orient: vertical;
+         -webkit-box-direction: normal;
+         -ms-flex-direction: column;
+         flex-direction: column;
+         /* justify-content: space-between; */
+         width: 50% !important;
+         height: auto;
+         margin: 20px 20px 20px 20px;
+         /* background-color: #F7F7F7; */
+         /* border: 1px solid #E0E0E0 !important; */
+         padding: 20px 20px 20px 20px;
+     }
+     
+     .text_dinner p {
+         text-align: left;
+         padding: 0px 0px !important;
+         margin: 0px 0px !important;
+         padding-bottom: 20px !important;
+         font-size: 15px;
+         text-transform: lowercase;
+     }
+     
+     .text_dinner h4 {
+         text-align: left;
+         font-size: 17px !important;
+         padding: 0px 0px !important;
+         margin: 0px 0px !important;
+         text-transform: uppercase;
+         padding-bottom: 3px !important;
+     }
+     
+     .mock_1 {
+         background-image: url("../img/moc.jpg");
+     }
+     
+     .text_mock {
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         -webkit-box-orient: vertical;
+         -webkit-box-direction: normal;
+         -ms-flex-direction: column;
+         flex-direction: column;
+         /* justify-content: space-between; */
+         width: 50% !important;
+         height: auto;
+         margin: 20px 20px 20px 20px;
+         /* background-color: #F7F7F7; */
+         /* border: 1px solid #E0E0E0 !important; */
+         padding: 20px 20px 20px 20px;
+     }
+     
+     .text_mock p {
+         text-align: left;
+         padding: 0px 0px !important;
+         margin: 0px 0px !important;
+         padding-bottom: 20px !important;
+         font-size: 15px;
+         text-transform: lowercase;
+     }
+     
+     .text_mock h4 {
+         text-align: left;
+         font-size: 17px !important;
+         padding: 0px 0px !important;
+         margin: 0px 0px !important;
+         text-transform: uppercase;
+         padding-bottom: 3px !important;
+     }
+     
+     .cocktail_1 {
+         background-image: url("../img/cocktails.jpg");
+     }
+     
+     .text_cocktail {
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         -webkit-box-orient: vertical;
+         -webkit-box-direction: normal;
+         -ms-flex-direction: column;
+         flex-direction: column;
+         /* justify-content: space-between; */
+         width: 50% !important;
+         height: auto;
+         margin: 20px 20px 20px 20px;
+         /* background-color: #F7F7F7; */
+         /* border: 1px solid #E0E0E0 !important; */
+         padding: 20px 20px 20px 20px;
+     }
+     
+     .text_cocktail p {
+         text-align: left;
+         padding: 0px 0px !important;
+         margin: 0px 0px !important;
+         padding-bottom: 20px !important;
+         font-size: 15px;
+         text-transform: lowercase;
+     }
+     
+     .text_cocktail h4 {
+         text-align: left;
+         font-size: 17px !important;
+         padding: 0px 0px !important;
+         margin: 0px 0px !important;
+         text-transform: uppercase;
+         padding-bottom: 3px !important;
+     }
+     
+     .wine {
+         background-image: url("../img/wine2.jpg");
+         min-height: 400px;
+     }
+     
+     .text_wine {
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         -webkit-box-orient: vertical;
+         -webkit-box-direction: normal;
+         -ms-flex-direction: column;
+         flex-direction: column;
+         /* justify-content: space-between; */
+         width: 50% !important;
+         height: auto;
+         margin: 0px 20px 20px 20px;
+         /* background-color: #F7F7F7; */
+         /* border: 1px solid #E0E0E0 !important; */
+         padding: 0px 20px 20px 20px;
+     }
+     
+     .text_wine p {
+         text-align: left;
+         padding: 0px 0px !important;
+         margin: 0px 0px !important;
+         padding-bottom: 20px !important;
+         font-size: 20px;
+         text-align: center !important;
+         /* text-transform: lowercase; */
+     }
+     
+     .text_wine h4 {
+         text-align: left;
+         font-size: 17px !important;
+         padding: 0px 0px !important;
+         margin: 0px 0px !important;
+         text-transform: uppercase;
+         padding-bottom: 3px !important;
+     }
+     
+     @media (max-width:1023px) {
+         .menu_img {
+             background-position: center;
+         }
+     }
+     
+     @media (max-width:767px) {
+         .menu_flex_row {
+             -webkit-box-orient: vertical;
+             -webkit-box-direction: normal;
+             -ms-flex-direction: column;
+             flex-direction: column;
+             -webkit-box-align: center;
+             -ms-flex-align: center;
+             align-items: center;
+         }
+         .text_canapes,
+         .text_brunch1,
+         .text_cocktail,
+         .text_dinner,
+         .text_mock,
+         .text_wine {
+             width: 90% !important;
+         }
+         .menu_img {
+             width: 90%;
+             min-height: 500px;
+         }
+     }
+     
+     @media (max-width:425px) {
+         .menu_flex_row {
+             -webkit-box-orient: vertical;
+             -webkit-box-direction: normal;
+             -ms-flex-direction: column;
+             flex-direction: column;
+             -webkit-box-align: center;
+             -ms-flex-align: center;
+             align-items: center;
+         }
+         .text_canapes,
+         .text_brunch1,
+         .text_cocktail,
+         .text_dinner,
+         .text_mock,
+         .text_wine {
+             width: 90% !important;
+         }
+         .menu_img {
+             width: 90%;
+             min-height: 300px;
+         }
+     }
